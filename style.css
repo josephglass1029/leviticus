@@ -1,0 +1,51 @@
+body {
+    font-size: 1.3em;
+}
+
+.container {
+    display: table;
+    margin: 5px;
+    border: solid purple 1px;
+    padding: 5px;
+    bgcolor: purple;
+}
+
+.group {text-align: right;
+    display: table-cell;
+    background: gray;
+    width: 150px;
+    line-height: 50px;
+    color: white;
+    float: right;
+    padding-right: 15px;
+}
+
+.individual {
+    text-align: right;
+    display: table-cell;
+    background: black;
+    width: 150px;
+    line-height: 50px;
+    color: white;
+    float: right;
+    padding-right: 15px;
+}
+
+.l1 {
+    list-style-type: decimal;
+}
+
+.l2 {
+    list-style-type: lower-alpha;
+}
+
+.q {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.a {
+    list-style-type: none;
+    color: blue;
+    line-height: 1em;
+}
